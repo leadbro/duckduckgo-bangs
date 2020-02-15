@@ -49,62 +49,14 @@ function addChildrenToContextMenu() {
         if (items.googleLink === true) {
             addChildToContextMenu('Google', '!g');
         }
-        if (items.youtubeLink === true) {
-            addChildToContextMenu('Youtube', '!yt');
-        }
         if (items.googleImagesLink === true) {
             addChildToContextMenu('Google Images', '!gi');
         }
-        if (items.googleMapsLink === true) {
-            addChildToContextMenu('Google Maps', '!gm');
+        if (items.yandexLink === true) {
+            addChildToContextMenu('Yandex', '!ya');
         }
-        if (items.googleTranslateLink === true) {
-            addChildToContextMenu('Google Translate', '!tr');
-        }
-        if (items.dictionaryLink === true) {
-            addChildToContextMenu('Dictionary.com', '!di');
-        }
-        if (items.googleNewsLink === true) {
-            addChildToContextMenu('Google News', '!gn');
-        }
-        if (items.hackerNewsLink === true) {
-            addChildToContextMenu('Hacker News', '!hn');
-        }
-        if (items.facebookLink === true) {
-            addChildToContextMenu('Facebook', '!fb');
-        }
-        if (items.twitterLink === true) {
-            addChildToContextMenu('Twitter', '!tw');
-        }
-        if (items.wikipediaLink === true) {
-            addChildToContextMenu('Wikipedia', '!wi');
-        }
-        if (items.imdLink === true) {
-            addChildToContextMenu('IMDb', '!imd');
-        }
-        if (items.bingLink === true) {
-            addChildToContextMenu('Bing', '!b');
-        }
-        if (items.githubLink === true) {
-            addChildToContextMenu('GitHub', '!git');
-        }
-        if (items.stackOverflowLink === true) {
-            addChildToContextMenu('StackOverflow', '!so');
-        }
-        if (items.redditLink === true) {
-            addChildToContextMenu('Reddit', '!r');
-        }
-        if (items.amazonLink === true) {
-            addChildToContextMenu('Amazon', '!a');
-        }
-        if (items.piratebayLink === true) {
-            addChildToContextMenu('Piratebay', '!piratebay');
-        }
-        if (items.avaxhomeLink === true) {
-            addChildToContextMenu('AvaxHome', '!avax');
-        }
-        if (items.rarbgLink === true) {
-            addChildToContextMenu('RaRBG', '!rarbg');
+        if (items.yandexImagesLink === true) {
+            addChildToContextMenu('Yandex Images', '!ymg');
         }
     });
 }
