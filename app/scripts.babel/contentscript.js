@@ -49,7 +49,7 @@ const inject = (query) => {
             containerElement.insertBefore(linkBuilder(query, '!gi', 'Img', 'Google Images'), linksElement);
         }
         if (items.yandexButton === true) {
-            containerElement.insertBefore(linkBuilder(query, '!ya', 'Img', 'yandex'), linksElement);
+            containerElement.insertBefore(linkBuilder(query, '!ya', 'Img', 'Yandex'), linksElement);
         }
         if (items.yandexImagesButton === true) {
             containerElement.insertBefore(linkBuilder(query, '!ymg', 'Img', 'Yandex Images'), linksElement);

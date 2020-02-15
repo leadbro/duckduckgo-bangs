@@ -41,11 +41,13 @@ function save_options() {
 function restore_options() {
     // Use default value color = 'red' and likesColor = true.
     chrome.storage.local.get({
-        newTab: false,
-        buttonText: 'shortName',
+        newTab: true,
+        buttonText: 'fullName',
 
         googleButton: true,
         googleImagesButton: true,
+        yandexButton: true,
+        yandexImagesButton: true,
     }, function(items) {
         document.getElementById('newTab').checked = items.newTab;
         document.getElementById('buttonText').value = items.buttonText;
